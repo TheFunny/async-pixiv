@@ -24,7 +24,7 @@ from aiofiles import open as async_open
 from aiofiles.tempfile import SpooledTemporaryFile
 from aiohttp.typedefs import StrOrURL
 from aiolimiter import AsyncLimiter
-from arkowrapper import ArkoWrapper
+from arko.wrapper import ArkoWrapper
 from httpx import USE_CLIENT_DEFAULT
 
 # noinspection PyProtectedMember
